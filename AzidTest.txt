@@ -329,7 +329,7 @@ mainopens.Parent = mainopen
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
  Hub.Text = "| Modded By Ryuk |"
- Hub.TextColor3 = Color3.fromRGB(0,237,255)
+ Hub.TextColor3 = Color3.fromRGB(153,0,0)
  Hub.TextSize = 16.000
  Hub.TextXAlignment = Enum.TextXAlignment.Left
  
