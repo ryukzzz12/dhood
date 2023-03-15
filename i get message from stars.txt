@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Pop It Trading >--✨️《Ryuk》✨️--<", HidePremium = false, IntroText = ">--✨️《Stars》✨️--<", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = ">--✨️《Ryuk》✨️--<", HidePremium = false, IntroText = ">-✨️《Stars》✨️-<", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
     Name = "✨️I Get Message From ✨️",
@@ -69,6 +69,99 @@ TutTab:AddButton({
     while wait() do
    game:GetService("ReplicatedStorage").RemoteEvents.Jumped:FireServer()
 end
+              print("SUSCRIBE")
+      end    
+})
+
+local TutTab = Window:MakeTab({
+    Name = "✨️Shop<3✨️",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+    Name = "✨️Shop UwU✨️"
+})
+
+TutTab:AddButton({
+    Name = "hand black⚫️",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Black")
+              print("SUSCRIBE")
+      end    
+})
+
+
+TutTab:AddButton({
+    Name = "hand blue🔵",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Blue")
+              print("SUSCRIBE")
+      end    
+})
+
+TutTab:AddButton({
+    Name = "hand Yellow🟡",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Yellow")
+              print("SUSCRIBE")
+      end    
+})
+
+TutTab:AddButton({
+    Name = "hand Red🔴",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Red")
+              print("SUSCRIBE")
+      end    
+})
+
+TutTab:AddButton({
+    Name = "hand Green🟢",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Green")
+              print("SUSCRIBE")
+      end    
+})
+
+TutTab:AddButton({
+    Name = "hand Orange🟠",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Orange")
+              print("SUSCRIBE")
+      end    
+})
+
+
+TutTab:AddButton({
+    Name = "hand Rainbow🔴🟠🔵⚪️",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Hand Rainbow")
+              print("SUSCRIBE")
+      end    
+})
+
+
+TutTab:AddButton({
+    Name = "Green Ozoe",
+    Callback = function()
+    
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Green Ozoe")
               print("SUSCRIBE")
       end    
 })
